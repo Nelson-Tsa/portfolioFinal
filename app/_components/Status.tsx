@@ -13,7 +13,7 @@ export const Status = () => {
                         <Rocket size={16} />
                         <p className="text-lg text-muted-foreground">Side, Fun Projects</p>
                     </div>
-                    <div className="flex flex-col h-full">
+                    <div className="flex flex-col h-full gap-4">
                         {SIDE_PROJECTS.map((project,index) => 
                             <SideProject
                                 key={index}
@@ -73,7 +73,7 @@ const SIDE_PROJECTS=[
     {
     Logo: Laptop,
     title: "Portfolio",
-    description: "Site web personnel avec Next.js et Tailwind CSS",
+    description: "Site web personnel avec React, Next.js et Tailwind CSS",
     url: "https://github.com/nelson-Tsa/Portfolio",
     },
     {
@@ -125,7 +125,7 @@ const ContactCard = (props: {
             <p className="text-xs text-muted-foreground flex truncate">{props.description}</p>
         </div>
         <div className="flex-shrink-0 ">
-            <ArrowUpRight size={16} className="group-hover:-translate-y-2 group-hover:translate-x-2 transition-transform mr-1" />
+            <ArrowUpRight size={16} className="group-hover:-translate-y-2 group-hover:translate-x-2 transition-transform mr-4" />
         </div>
 
 </Card>
@@ -187,7 +187,7 @@ return (
         <div className="flex-1 ">
             <div className="min-w-0 flex items-center gap-2">
             <p className="text-md font-semibold truncate">{props.title}</p>
-            {props.freelance && <Badge variant="outline">Actuellement</Badge>}
+            {props.freelance && <Badge variant="outline">En cours</Badge>}
             </div>
             <p className="text-xs text-muted-foreground flex truncate">{props.role}</p>
         </div>

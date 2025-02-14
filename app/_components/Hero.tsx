@@ -6,10 +6,7 @@ import { YoutubeIcon } from "./icons/YoutubeIcon";
 import Link from "next/link";
 import { GithubIcon } from "./icons/GithubIcon";
 import { LinkedinIcon } from "./icons/LinkedinIcon";
-
-const Code = ({className, ...props}: ComponentPropsWithoutRef <"span">) => {
-return <span className={cn("bg-accent/30 font-mono border hover:bg-accent/50 transition-colors bg-border px-1 py-0.5 text-primary rounded-sm", className)} {...props}/>
-}
+import { Code } from "./Code";
 
 export const Hero = () => {
     return (
