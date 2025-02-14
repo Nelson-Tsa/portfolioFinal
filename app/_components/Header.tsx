@@ -20,7 +20,7 @@ export const Header = () => {
                     <GithubIcon size={18} className="text-foreground"/>
                     </Link>
 
-                    <Link href={"https://x.com/KaidoNaka"} target="_blank" className={cn(buttonVariants({variant: "outline"}), "size-6 p-0")}>
+                    <Link href={"https://x.com/nelson_tsa"} target="_blank" className={cn(buttonVariants({variant: "outline"}), "size-6 p-0")}>
                     <XIcon size={18} className="text-foreground"/></Link>
 
                     <Link href={"https://www.linkedin.com/in/nelson-tsamen-108971346/"} target="_blank" className={cn(buttonVariants({variant: "outline"}), "size-6 p-0")}>

@@ -13,8 +13,8 @@ return <span className={cn("bg-accent/30 font-mono border hover:bg-accent/50 tra
 
 export const Hero = () => {
     return (
-        <Section className="flex max-md:flex-col items-start gap-4">
-            <div className="flex-[3] w-full flex flex-col gap-2">
+        <Section className="flex max-md:flex-col items-stretch gap-4 justify-between">
+            <div className="flex-[3] w-full flex flex-col gap-2 ">
                 <h2 className="text-4xl font-caption text-primary">Nelson Tsamen</h2>
                 <h3 className="text-3xl font-bold">Software Developer</h3>
                 <p className="text-base">
@@ -44,7 +44,7 @@ export const Hero = () => {
                 pratique mes connaissances et de contribuer activement à des projets innovants.
                 </p>
             </div>
-            <div className="flex-[2] max-md:m-auto ml-auto">
+            <div className="flex-[2] max-md:m-auto ml-auto flex items-center justify-center h-full">
                 <img src="https://avatars.githubusercontent.com/u/55012641?v=4" 
                 alt="Photo de profil" className="w-full h-auto max-w-xs rounded-lg"/>
             </div>
