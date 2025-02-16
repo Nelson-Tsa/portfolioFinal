@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Home, LucideIcon, Laptop, FolderGit, Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Code, ArrowUpRight, Contact} from "lucide-react"
-import Link from "next/link";
-import { Badge } from "@/components/ui/badge";
-import { SideProject, SideProjectProps } from "./SideProjectProps";
+import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact} from "lucide-react"
+//import Link from "next/link";, SideProjectProps 
+//import { Badge } from "@/components/ui/badge"; Code, ArrowUpRight, Home, LucideIcon, Laptop, FolderGit, 
+import { SideProject} from "./SideProjectProps";
 import { Work } from "./WorkProps";
 import { ContactCard } from "./ContactCard";
 

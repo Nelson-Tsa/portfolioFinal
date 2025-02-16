@@ -7,7 +7,7 @@ import Link from "next/link";
 import { GithubIcon } from "./icons/GithubIcon";
 // import { LinkedinIcon } from "./icons/LinkedinIcon";
 import { Code } from "./Code";
-// import Image from "next/image";
+//import Image from "next/image";
 
 export const Hero = () => {
     return (
@@ -24,7 +24,7 @@ export const Hero = () => {
                 YouTube Underscore
                     </Code>
                 </Link>, 
-                dont j'apprécie particulière le contenu. Je partage régulièrement mes contributions 
+                dont j\'apprécie particulière le contenu. Je partage régulièrement mes contributions 
                 sur mon profil sur
                 <Link href="https://github.com/nelson-Tsa" target="_blank">
                 <Code className="inline-flex items-center gap-1">
@@ -32,7 +32,7 @@ export const Hero = () => {
                     Github
                     </Code>
                 </Link> 
-                 et j'ai pris plaisir à créer des logos au format SVG.
+                 et j\'ai pris plaisir à créer des logos au format SVG.
                 Résidant en 
                 <Link href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" target="_blank">
                     <Code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" style={{width: 18 , height: "auto"}} alt="Drapeau de France" className="inline"/> France</Code>
