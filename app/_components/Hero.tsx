@@ -24,7 +24,7 @@ export const Hero = () => {
                 YouTube Underscore
                     </Code>
                 </Link>, 
-                dont j\'apprécie particulière le contenu. Je partage régulièrement mes contributions 
+                dont j&apos;apprécie particulière le contenu. Je partage régulièrement mes contributions 
                 sur mon profil sur
                 <Link href="https://github.com/nelson-Tsa" target="_blank">
                 <Code className="inline-flex items-center gap-1">
@@ -32,13 +32,13 @@ export const Hero = () => {
                     Github
                     </Code>
                 </Link> 
-                 et j\'ai pris plaisir à créer des logos au format SVG.
+                 et j&apos;ai pris plaisir à créer des logos au format SVG.
                 Résidant en 
                 <Link href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" target="_blank">
                     <Code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" style={{width: 18 , height: "auto"}} alt="Drapeau de France" className="inline"/> France</Code>
                 </Link>, 
                 je suis actuellement en formation chez <Link href="https://adatechschool.fr/" target="_blank"><Code><img src="https://cdn.welcometothejungle.co/uploads/website/logo/4277/155112/ada-tech-school.png" style={{width: 18 , height: 10}} alt="Logo Ada Tech School" className="inline"/> Ada Tech School</Code></Link> pour devenir 
-                développeur full-stack. Je suis à la recherche d'une alternance afin de mettre en 
+                développeur full-stack. Je suis à la recherche d&apos;une alternance afin de mettre en 
                 pratique mes connaissances et de contribuer activement à des projets innovants.
                 </p>
             </div>
