@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Home, LucideIcon, Laptop, FolderGit, Rocket, Briefcase, Code, ArrowUpRight, Contact} from "lucide-react"
+import {Home, LucideIcon, Laptop, FolderGit, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Code, ArrowUpRight, Contact} from "lucide-react"
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { SideProject, SideProjectProps } from "./SideProjectProps";
@@ -82,22 +82,28 @@ const SIDE_PROJECTS=[
     url: "https://github.com/nelson-Tsa/Portfolio",
     },
     {
-        Logo: FolderGit,
-        title: "Projet2",
-        description: "Description du projet 2",
-        url: "https://github.com/nelson-Tsa/Portfolio",
+        Logo: Clock10,
+        title: "Horloge",
+        description: "Horloge avec JavaScript",
+        url: "https://nelson-tsa.github.io/horloge.io/",
     },
     {
-        Logo: FolderGit,
-        title: "Projet2",
-        description: "Description du projet 2",
-        url: "https://github.com/nelson-Tsa/Portfolio",
+        Logo: Calculator,
+        title: "Calculette",
+        description: "Calculette avec JavaScript",
+        url: "https://nelson-tsa.github.io/Calculatrice.io/",
     },
     {
-        Logo: FolderGit,
-        title: "Projet2",
-        description: "Description du projet 2",
-        url: "https://github.com/nelson-Tsa/Portfolio",
+        Logo: ListTodo,
+        title: "Todo List",
+        description: "Todo List avec JavaScript",
+        url: "https://nelson-tsa.github.io/todo-list.io/",
+    },
+    {
+        Logo: Gamepad2,
+        title: "Guess Number",
+        description: "Jeux avec JavaScript",
+        url: "https://nelson-tsa.github.io/devineLeNombre.io/",
     },
 ];
 
@@ -110,7 +116,7 @@ const WORK=[
     image: "https://adatechschool.fr/app/uploads/2022/05/icn_logo_ada@2x.png",
     title: "Ada Tech School",
     role: "Formation intensive en développement web et mobile",
-    date: "2023 - 2025",
+    date: "2025",
     url: "https://adatechschool.fr/",
     freelance: true,
     },
