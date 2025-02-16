@@ -40,7 +40,7 @@ export const Skills = () => {
                   />
                   
               <h3 className="text-2xl font-semibold tracking-tight text-sm text-muted-foreground">Claude</h3>
-              <p className="text-gray-500 dark:text-gray-400">Je m'interesse à l'IA et j'en apprends davantage grace à <Code>Claude 3.5</Code>.</p>
+              <p className="text-gray-500 dark:text-gray-400"><Code>Claude 3.5</Code> est un assistant d'apprentissage et de développement, offrant des ressources pédagogiques et des outils pratiques pour progresser rapidement.</p>
               </div>
               <div className="flex flex-col gap-2 flex-1">
                   <div className="flex gap-4 ">
@@ -56,7 +56,7 @@ export const Skills = () => {
                     />
                   </div>
               <h3 className="text-2xl font-semibold tracking-tight text-sm text-muted-foreground">IA Générative</h3>
-              <p className="text-gray-500 dark:text-gray-400">J'utilise <Code>ChatGPT</Code> et <Code>Mistral</Code> pour m'aider dans mes projets de développement.</p>
+              <p className="text-gray-500 dark:text-gray-400">J'utilise <Code>OpenAI</Code> et <Code>Mistral</Code> pour expliquer des concepts complexes, synthétiser des cours en ligne de manière claire et concise, et clarifier les étapes ambiguës afin d'améliorer ma compréhension et mon apprentissage.</p>
               </div>
             </div>
         </Section>

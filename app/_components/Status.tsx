@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Home, LucideIcon, Laptop, FolderGit, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Code, ArrowUpRight, Contact} from "lucide-react"
+import {Home, LucideIcon, Laptop, FolderGit, Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Code, ArrowUpRight, Contact} from "lucide-react"
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { SideProject, SideProjectProps } from "./SideProjectProps";
@@ -24,6 +24,7 @@ export const Status = () => {
                                 title={project.title} 
                                 description={project.description} 
                                 url={project.url} 
+                                freelance={project.freelance}
                             />
                         )}
                     </div>
@@ -76,10 +77,11 @@ export const Status = () => {
 
 const SIDE_PROJECTS=[
     {
-    Logo: Laptop,
-    title: "Portfolio",
-    description: "Site web personnel avec React, Next.js et Tailwind CSS",
-    url: "https://github.com/nelson-Tsa/Portfolio",
+    Logo: Brain,
+    title: "Quizz",
+    description: "Quizz créer en projet de groupe",
+    url: "",
+    freelance: true,
     },
     {
         Logo: Clock10,
