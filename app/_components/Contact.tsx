@@ -14,19 +14,19 @@ export const Contact = () => {
         <Section className="flex flex-col gap-4 items-start">
             <Badge variant="outline">Contact me</Badge>
             <h2 className="pb-2 text-3xl text-primary font-semibold tracking-tight first:mt-0">
-                Je serais heureux de travailler avec vous</h2>
+                Je serai heureux de travailler avec vous</h2>
             <div className="flex max-md:flex-col w-full gap-4">
                     <ContactCard 
                         url="https://x.com/nelson_tsa"
                         name="nelson_tsa" 
-                        description="1" 
+                        description="1 follower" 
                         image="https://github.com/nelson-Tsa.png" 
                         mediumImage="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg"
                     />
                     <ContactCard 
                         url="https://www.linkedin.com/in/nelson-tsa-4b1b4a1b9/"
                         name="Nelson Tsamen" 
-                        description="11" 
+                        description="11 relations" 
                         image="https://github.com/nelson-Tsa.png" 
                         mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
                     /> 

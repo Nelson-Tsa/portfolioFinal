@@ -58,14 +58,14 @@ export const Status = () => {
                         <ContactCard 
                         url="https://x.com/nelson_tsa"
                         name="nelson_tsa" 
-                        description="1" 
+                        description="1 follower" 
                         image="https://github.com/nelson-Tsa.png" 
                         mediumImage="https://upload.wikimedia.org/wikipedia/commons/e/e6/Twitter-new-logo.jpg"
                         />
                          <ContactCard 
                         url="https://www.linkedin.com/in/nelson-tsa-4b1b4a1b9/"
                         name="Nelson Tsamen" 
-                        description="11" 
+                        description="11 relations" 
                         image="https://github.com/nelson-Tsa.png" 
                         mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
                         />
@@ -79,7 +79,7 @@ const SIDE_PROJECTS=[
     {
     Logo: Brain,
     title: "Quizz",
-    description: "Quizz créer en projet de groupe",
+    description: "Quiz créé dans le cadre d'un projet de groupe",
     url: "",
     freelance: true,
     },
@@ -117,7 +117,7 @@ const WORK=[
     {
     image: "https://adatechschool.fr/app/uploads/2022/05/icn_logo_ada@2x.png",
     title: "Ada Tech School",
-    role: "Formation intensive en développement web et mobile",
+    role: "Formation developpeur full-stack",
     date: "2025",
     url: "https://adatechschool.fr/",
     freelance: true,

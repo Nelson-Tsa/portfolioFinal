@@ -24,7 +24,7 @@ export const Hero = () => {
                 YouTube Underscore
                     </Code>
                 </Link>, 
-                dont j&apos;apprécie particulière le contenu. Je partage régulièrement mes contributions 
+                dont j&apos;apprécie particulièrement le contenu. Je partage régulièrement mes contributions 
                 sur mon profil sur
                 <Link href="https://github.com/nelson-Tsa" target="_blank">
                 <Code className="inline-flex items-center gap-1">
@@ -32,7 +32,8 @@ export const Hero = () => {
                     Github
                     </Code>
                 </Link> 
-                 et j&apos;ai pris plaisir à créer des logos au format SVG.
+                 .
+                 <br/>
                 Résidant en 
                 <Link href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" target="_blank">
                     <Code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" style={{width: 18 , height: "auto"}} alt="Drapeau de France" className="inline"/> France</Code>

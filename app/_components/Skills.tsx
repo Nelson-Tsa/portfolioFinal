@@ -56,7 +56,7 @@ export const Skills = () => {
                     />
                   </div>
               <h3 className="text-2xl font-semibold tracking-tight text-sm text-muted-foreground">IA Générative</h3>
-              <p className="text-gray-500 dark:text-gray-400">J&apos;utilise <Code>OpenAI</Code> et <Code>Mistral</Code> pour expliquer des concepts complexes, synthétiser des cours en ligne de manière claire et concise, et clarifier les étapes ambiguës afin d&apos;améliorer ma compréhension et mon apprentissage.</p>
+              <p className="text-gray-500 dark:text-gray-400">J&apos;utilise <Code>OpenAI</Code> et <Code>Mistral</Code> pour expliquer des concepts complexes, synthétiser des cours en ligne de manière claire et concise cela permet de clarifier les étapes ambiguës afin d&apos;améliorer ma compréhension et mon apprentissage.</p>
               </div>
             </div>
         </Section>
