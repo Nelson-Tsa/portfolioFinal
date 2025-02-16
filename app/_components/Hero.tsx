@@ -1,12 +1,13 @@
-import { ComponentPropsWithoutRef } from "react";
+//import { ComponentPropsWithoutRef } from "react";
 import {Section} from "./Section";
-import { Spacing } from "./Spacing";
-import { cn } from "@/lib/utils";
+// import { Spacing } from "./Spacing";
+// import { cn } from "@/lib/utils";
 import { YoutubeIcon } from "./icons/YoutubeIcon";
 import Link from "next/link";
 import { GithubIcon } from "./icons/GithubIcon";
-import { LinkedinIcon } from "./icons/LinkedinIcon";
+// import { LinkedinIcon } from "./icons/LinkedinIcon";
 import { Code } from "./Code";
+// import Image from "next/image";
 
 export const Hero = () => {
     return (

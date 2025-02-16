@@ -1,11 +1,11 @@
 import { Badge } from "@/components/ui/badge";
 import { Section } from "./Section";
-import { ReactIcon } from "./icons/ReactIcon";
-import { Code } from "./Code";
-import { TailwindIcon } from "./icons/TailwindIcon";
-import { ClaudeIcon } from "./icons/ClaudeIcon";
-import { OpenAIIcon } from "./icons/OpenAIIcon";
-import { MistralIcon } from "./icons/MistralIcon";
+// import { ReactIcon } from "./icons/ReactIcon";
+// import { Code } from "./Code";
+// import { TailwindIcon } from "./icons/TailwindIcon";
+// import { ClaudeIcon } from "./icons/ClaudeIcon";
+// import { OpenAIIcon } from "./icons/OpenAIIcon";
+// import { MistralIcon } from "./icons/MistralIcon";
 import { ContactCard } from "./ContactCard";
 
 
