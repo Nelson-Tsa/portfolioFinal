@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact} from "lucide-react"
+import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages} from "lucide-react"
 //import Link from "next/link";, SideProjectProps 
 //import { Badge } from "@/components/ui/badge"; Code, ArrowUpRight, Home, LucideIcon, Laptop, FolderGit, 
 import { SideProject} from "./SideProjectProps";
@@ -11,12 +11,12 @@ export const Status = () => {
     return (
         <Section className="flex max-md:flex-col items-stretch gap-6">
             <div className="flex-[3] w-full">
-                <Card className="w-full p-4 h-full">
+                <Card className="w-full p-4" style={{ height: '433px' }}>
                     <div className="flex items-center gap-2 mb-4">
                         <Rocket size={16} />
                         <p className="text-lg text-muted-foreground">Side, Fun Projects</p>
                     </div>
-                    <div className="flex flex-col h-full gap-4">
+                    <div className="h-[calc(100%-2.5rem)] overflow-y-auto pr-2">
                         {SIDE_PROJECTS.map((project,index) => 
                             <SideProject
                                 key={index}
@@ -84,6 +84,12 @@ const SIDE_PROJECTS=[
     freelance: false,
     },
     {
+        Logo: Languages,
+        title: "Morse",
+        description: "Traducteur Morse avec JavaScript",
+        url: "https://nelson-tsa.github.io/Morse/",
+    },
+    {
         Logo: Clock10,
         title: "Horloge",
         description: "Horloge avec JavaScript",
@@ -106,12 +112,8 @@ const SIDE_PROJECTS=[
         title: "Guess Number",
         description: "Jeux avec JavaScript",
         url: "https://nelson-tsa.github.io/devineLeNombre.io/",
-    },
+    }, 
 ];
-
-
-
-
 
 const WORK=[
     {
@@ -130,4 +132,3 @@ const WORK=[
     url: "https://github.com/nelson-Tsa/Portfolio",
     },
 ];
-
