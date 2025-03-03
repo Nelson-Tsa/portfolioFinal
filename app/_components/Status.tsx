@@ -80,8 +80,8 @@ const SIDE_PROJECTS=[
     Logo: Brain,
     title: "Quizz",
     description: "Quiz créé dans le cadre d'un projet de groupe",
-    url: "",
-    freelance: true,
+    url: "https://nelson-tsa.github.io/Quiz-Groupe/",
+    freelance: false,
     },
     {
         Logo: Clock10,
