@@ -113,6 +113,12 @@ const SIDE_PROJECTS=[
         description: "Jeux avec JavaScript",
         url: "https://nelson-tsa.github.io/devineLeNombre.io/",
     }, 
+    {
+        Logo: Gamepad2,
+        title: "Jeux des allumettes",
+        description: "Jeux avec JavaScript",
+        url: "https://nelson-tsa.github.io/Jeu-allumettes/",
+    }, 
 ];
 
 const WORK=[
