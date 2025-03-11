@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages} from "lucide-react"
+import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages, ThermometerSun} from "lucide-react"
 //import Link from "next/link";, SideProjectProps 
 //import { Badge } from "@/components/ui/badge"; Code, ArrowUpRight, Home, LucideIcon, Laptop, FolderGit, 
 import { SideProject} from "./SideProjectProps";
@@ -76,6 +76,13 @@ export const Status = () => {
 }
 
 const SIDE_PROJECTS=[
+    {
+        Logo: ThermometerSun,
+        title: "Météo",
+        description: "Application de météo avec JavaScript",
+        url: "https://nelson-tsa.github.io/meteo/",
+        freelance: false,
+        },
     {
     Logo: Brain,
     title: "Quizz",
