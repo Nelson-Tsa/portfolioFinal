@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages, ThermometerSun} from "lucide-react"
+import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages, TrainFront, ThermometerSun} from "lucide-react"
 //import Link from "next/link";, SideProjectProps 
 //import { Badge } from "@/components/ui/badge"; Code, ArrowUpRight, Home, LucideIcon, Laptop, FolderGit, 
 import { SideProject} from "./SideProjectProps";
@@ -95,6 +95,12 @@ const SIDE_PROJECTS=[
         title: "Morse",
         description: "Traducteur Morse avec JavaScript",
         url: "https://nelson-tsa.github.io/Morse/",
+    },
+    {
+        Logo: TrainFront,
+        title: "SNCF App",
+        description: "Recherche de trajet en train avec JavaScript",
+        url: "https://nelson-tsa.github.io/SncfApp/",
     },
     {
         Logo: Clock10,
