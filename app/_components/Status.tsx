@@ -131,7 +131,13 @@ const SIDE_PROJECTS=[
         title: "Jeux des allumettes",
         description: "Jeux avec JavaScript",
         url: "https://nelson-tsa.github.io/Jeu-allumettes/",
-    }, 
+    },
+    {
+        Logo: Gamepad2,
+        title: "MasterMind",
+        description: "Jeux avec JavaScript",
+        url: "https://nelson-tsa.github.io/MasterMind-Anime/",
+    },  
 ];
 
 const WORK=[
