@@ -78,17 +78,24 @@ export const Status = () => {
 const SIDE_PROJECTS=[
     {
         Logo: ThermometerSun,
+        title: "Météo & Photo",
+        description: "Application de météo, qui affiche une photo de la ville avec JavaScript",
+        url: "https://nelson-tsa.github.io/kata-mini-station-meteo/",
+        freelance: false,
+    },
+    {
+        Logo: ThermometerSun,
         title: "Météo",
         description: "Application de météo avec JavaScript",
         url: "https://nelson-tsa.github.io/meteo/",
         freelance: false,
-        },
+    },
     {
-    Logo: Brain,
-    title: "Quizz",
-    description: "Quiz créé dans le cadre d'un projet de groupe",
-    url: "https://nelson-tsa.github.io/Quiz-Groupe/",
-    freelance: false,
+        Logo: Brain,
+        title: "Quizz",
+        description: "Quiz créé dans le cadre d'un projet de groupe",
+        url: "https://nelson-tsa.github.io/Quiz-Groupe/",
+        freelance: false,
     },
     {
         Logo: Languages,
@@ -102,6 +109,30 @@ const SIDE_PROJECTS=[
         description: "Recherche de trajet en train avec JavaScript",
         url: "https://nelson-tsa.github.io/SncfApp/",
     },
+    {
+        Logo: Gamepad2,
+        title: "Motus",
+        description: "Jeux ou il faut deviner un mot avec JavaScript",
+        url: "https://nelson-tsa.github.io/Motus/",
+    },
+    {
+        Logo: Gamepad2,
+        title: "MasterMind",
+        description: "Jeux ou il faut deviner les couleurs avec JavaScript",
+        url: "https://nelson-tsa.github.io/MasterMind-Anime/",
+    },
+    {
+        Logo: Gamepad2,
+        title: "Jeux des allumettes",
+        description: "Jeux avec JavaScript",
+        url: "https://nelson-tsa.github.io/Jeu-allumettes/",
+    },
+    {
+        Logo: Gamepad2,
+        title: "Guess Number",
+        description: "Jeux ou il faut deviner un nombre avec JavaScript",
+        url: "https://nelson-tsa.github.io/devineLeNombre.io/",
+    },   
     {
         Logo: Clock10,
         title: "Horloge",
@@ -119,24 +150,6 @@ const SIDE_PROJECTS=[
         title: "Todo List",
         description: "Todo List avec JavaScript",
         url: "https://nelson-tsa.github.io/todo-list.io/",
-    },
-    {
-        Logo: Gamepad2,
-        title: "Guess Number",
-        description: "Jeux avec JavaScript",
-        url: "https://nelson-tsa.github.io/devineLeNombre.io/",
-    }, 
-    {
-        Logo: Gamepad2,
-        title: "Jeux des allumettes",
-        description: "Jeux avec JavaScript",
-        url: "https://nelson-tsa.github.io/Jeu-allumettes/",
-    },
-    {
-        Logo: Gamepad2,
-        title: "MasterMind",
-        description: "Jeux avec JavaScript",
-        url: "https://nelson-tsa.github.io/MasterMind-Anime/",
     },  
 ];
 
