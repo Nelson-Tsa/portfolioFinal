@@ -142,8 +142,8 @@ const SIDE_PROJECTS=[
     {
         Logo: Calculator,
         title: "Calculette",
-        description: "Calculette avec JavaScript",
-        url: "https://nelson-tsa.github.io/Calculatrice.io/",
+        description: "Calculette avec Bootstrap et JavaScript",
+        url: "https://nelson-tsa.github.io/calculetteBootstrap/",
     },
     {
         Logo: ListTodo,
