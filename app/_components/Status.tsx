@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import {Section} from "./Section";
-import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages, TrainFront, ThermometerSun} from "lucide-react"
+import {Brain, Gamepad2, Rocket, Briefcase, Calculator, Clock10, ListTodo, Contact, Languages, TrainFront, ThermometerSun, HeartHandshake, Clapperboard} from "lucide-react"
 //import Link from "next/link";, SideProjectProps 
 //import { Badge } from "@/components/ui/badge"; Code, ArrowUpRight, Home, LucideIcon, Laptop, FolderGit, 
 import { SideProject} from "./SideProjectProps";
@@ -65,7 +65,7 @@ export const Status = () => {
                          <ContactCard 
                         url="https://www.linkedin.com/in/nelson-tsa-4b1b4a1b9/"
                         name="Nelson Tsamen" 
-                        description="32 relations" 
+                        description="71 relations" 
                         image="https://github.com/nelson-Tsa.png" 
                         mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/1024px-LinkedIn_icon.svg.png"
                         />
@@ -76,6 +76,20 @@ export const Status = () => {
 }
 
 const SIDE_PROJECTS=[
+    {
+        Logo: HeartHandshake,
+        title: "Association & Volontaires",
+        description: "Le backend met 2 min a démarrer ( projet SpringBoot & Angular ) pour collecter des déchets",
+        url: "https://adactionapp.vercel.app/association-list",
+        freelance: true,
+    },
+    {
+        Logo: Clapperboard,
+        title: "Location de film",
+        description: "BDD NoSql firebase et app JS avec une api pour récuperer les affiches de film",
+        url: "https://baselocfilm.web.app/",
+        freelance: true,
+    },
     {
         Logo: ThermometerSun,
         title: "Météo & Photo",

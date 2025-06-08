@@ -17,30 +17,28 @@ export const Hero = () => {
                 <h3 className="text-3xl font-bold">Developer Full-Stack</h3>
                 <p className="text-base">
 
-                Je me tiens informé des dernières technologies grâce à la chaîne
-                <Link href="https://www.youtube.com/@Underscore_" target="_blank">
+
+
+                Salut, je suis Nelson, ancien cuisinier en reconversion vers le développement 
+                full stack à <br/> <Link href="https://adatechschool.fr/" target="_blank"><Code><img src="https://cdn.welcometothejungle.co/uploads/website/logo/4277/155112/ada-tech-school.png" style={{width: 18 , height: 10}} alt="Logo Ada Tech School" className="inline"/> Ada Tech School</Code></Link> 
+                en <Link href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" target="_blank">
+                    <Code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" style={{width: 18 , height: "auto"}} alt="Drapeau de France" className="inline"/> France</Code>
+                </Link>. Passionné par l&apos;innovation, je me forme aux dernières
+                 technologies ( <Link href="https://www.youtube.com/@Underscore_" target="_blank">
                 <Code className="inline-flex items-center gap-1">
                 <YoutubeIcon size={15} className="inline"/>  
                 YouTube Underscore
                     </Code>
-                </Link>, 
-                dont j&apos;apprécie particulièrement le contenu. Je partage régulièrement mes contributions 
-                sur mon profil sur
-                <Link href="https://github.com/nelson-Tsa" target="_blank">
+                </Link>) et partage mes projets sur<Link href="https://github.com/nelson-Tsa" target="_blank">
                 <Code className="inline-flex items-center gap-1">
                 <GithubIcon size={15} className="inline"/>
                     Github
                     </Code>
-                </Link> 
-                 .
-                 <br/>
-                Résidant en 
-                <Link href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" target="_blank">
-                    <Code><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/langfr-450px-Flag_of_France.svg.png" style={{width: 18 , height: "auto"}} alt="Drapeau de France" className="inline"/> France</Code>
-                </Link>, 
-                je suis actuellement en formation chez <Link href="https://adatechschool.fr/" target="_blank"><Code><img src="https://cdn.welcometothejungle.co/uploads/website/logo/4277/155112/ada-tech-school.png" style={{width: 18 , height: 10}} alt="Logo Ada Tech School" className="inline"/> Ada Tech School</Code></Link> pour devenir 
-                développeur full-stack. Je suis à la recherche d&apos;une alternance afin de mettre en 
-                pratique mes connaissances et de contribuer activement à des projets innovants.
+                </Link> . Après avoir géré des défis en cuisine,
+                  je mets aujourd&apos;hui mes compétences au service du code pour créer des solutions numériques.
+                   Je recherche une alternance à partir d&apos;octobre 2025 pour contribuer à des projets stimulants. 
+                   Envie d&apos;en savoir plus ? Contactez-moi !
+
                 </p>
             </div>
             <div className="flex-[2] max-md:m-auto ml-auto flex items-center justify-center h-full">
