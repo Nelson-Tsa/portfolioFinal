@@ -8,6 +8,7 @@ import { GithubIcon } from "./icons/GithubIcon";
 // import { LinkedinIcon } from "./icons/LinkedinIcon";
 import { Code } from "./Code";
 //import Image from "next/image";
+import profilImage from '../image/PhotoProfil.png';
 
 export const Hero = () => {
     return (
@@ -42,9 +43,11 @@ export const Hero = () => {
                 </p>
             </div>
             <div className="flex-[2] max-md:m-auto ml-auto flex items-center justify-center h-full">
-                <img src="https://avatars.githubusercontent.com/u/55012641?v=4" 
+                {/* <img src="https://avatars.githubusercontent.com/u/55012641?v=4" 
+                alt="Photo de profil" className="w-full h-auto max-w-xs rounded-lg"/> */}
+                <img src={profilImage.src}
                 alt="Photo de profil" className="w-full h-auto max-w-xs rounded-lg"/>
-            </div>
+            </div>  
         </Section>
     )
 }
